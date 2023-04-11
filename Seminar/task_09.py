@@ -3,7 +3,7 @@
 # Input: 5
 # Output: 120
 
-n = int(input())
+n = int(input("Введите целое неотрицательное значение = "))
 i = 1
 result = 1
 while i <= n:
