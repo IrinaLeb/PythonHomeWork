@@ -16,6 +16,6 @@ dif = abs(list[0] - number)
 for i in range(1,num):
     if abs(list[i] - number) < dif:
         dif = abs(list[i] - number)
-        y = list[i]
+        el = list[i]
 print(list)
 print(f"{el} -> самый близкий по величине элемент к заданному числу {number}")
