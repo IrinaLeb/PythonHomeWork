@@ -18,7 +18,7 @@ def nums_list(n):
 def new_List():
     list_1 = input("Введите элементы массива через пробел: ").split()
     for k in range(len(list_1)):
-        list_1[k] = int(list_1[k])
+       list_1[k] = int(list_1[k])
     return list_1
 
 def dif_list(list_a, list_b):
